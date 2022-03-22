@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:gravity="center"
+	android:background="@drawable/pergamino">
+	
+	
+	<TextView
+		android:id="@+id/datos"
+		android:textSize="22dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	</TextView>
+	
+	
+	<Button
+		android:id="@+id/boton2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Editar datos">
+
+	</Button>
+    
+</LinearLayout>
